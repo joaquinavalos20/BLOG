@@ -109,7 +109,8 @@
 
 {% for comentario in comments %}
 <hr>
-<p><strong><ins>{{comentario.name}}</ins></strong>: {{comentario.content}}</p>
+<p>{{ comentario.create_on }} </p>
+<strong><ins>{{comentario.name}}</ins></strong>: {{comentario.content}}
 </hr>
 {% endfor %}
 <hr></hr>
